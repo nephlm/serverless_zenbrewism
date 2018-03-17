@@ -1,0 +1,125 @@
+html {
+	min-height: 100vh;
+}
+
+body {
+  font: 14px "Century Gothic", Futura, sans-serif;
+  margin: .5em 0 0 0 ;
+  min-height: 100vh;
+}
+
+
+p {
+	text-indent: 1em;
+}
+
+.dialog-content {
+	width: 40em;
+}
+
+.dialog-submit {
+	margin-top: .5em;
+}
+.dialog-cancel {
+	float: right;
+	margin-top: .5em;
+}
+
+.top-space {
+	margin-top: 1em;
+}
+
+.header {
+	border-top: 2px solid;
+	border-bottom: 2px solid;
+	margin-top: 0em;
+	padding-top: .5em;
+}
+
+.icon {
+	position: relative;
+	top: -.4em;
+	margin-left: 1em;
+}
+
+.title {
+	font-size: 2.1em;
+	display: inline-block;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	padding-left: .2em;
+}
+
+.subtitle {
+	display: inline-block;
+	padding-left: 1em;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 1.3em;
+}
+
+
+.main {
+   height: auto;
+   overflow: hidden;
+   padding-top: 1em;
+}
+
+.outer-right {
+    width: 20em;
+    float: right;
+    background: #f8f8f8;
+    min-height: 90vh;
+    padding-bottom: 0;
+}
+
+.aboutme {
+	text-align: center;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 1.3em;
+	padding-top: 1em;
+}
+
+.aboutme-text { 
+	padding: 0em 1em 0em 1em;
+ }
+
+.photo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 1em;
+}
+
+.wrapper {
+  	display: flex;
+  	justify-content: center;
+	padding-bottom: 1em;
+}
+
+.joinbtn {
+	margin: 0 auto;
+}
+
+.outer-left {
+    float: none; /* not needed, just for clarification */
+    /* the next props are meant to keep this block independent from the other floated one */
+    width: auto;
+    overflow: hidden;
+    margin: 2em;
+}
+
+.book-title {
+	font-size: 3em;
+	text-align: center;
+}
+
+.book-subtitle {
+	font-size: 1em;
+	text-align: center;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
