@@ -1,6 +1,7 @@
 import flask
 
 from zenbrewism import app
+import zenbrewism.models as models
 
 @app.after_request
 def after_request(response):
@@ -19,7 +20,13 @@ def test():
 
 @app.route('/page/home')
 def home():
-    return flask.json.jsonify({'text': 'the page'})
+
+    pages = models.PageCollection(stage='dev')
+    print(pages.prefix)
+    print(pages.bucket)
+    print(pages.index)
+    page_dict = pages.load('home', default='')
+    return flask.json.jsonify({'text': page_dict['content']})
 
 @app.errorhandler(404)
 def page_not_found(e):

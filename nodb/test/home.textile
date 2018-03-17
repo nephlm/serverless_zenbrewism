@@ -1,0 +1,54 @@
+pre.. ### START JSON ###
+
+{
+    "date": "2018-02-19 00:59:40",
+    "slug": "home",
+    "title": "home",
+    "type": "page"
+}
+
+### START TEXTILE ###
+
+
+p. **The wind is a symphony in Skye’s soul and she is its conductor.**
+
+Skye’s father, the legally insane god of storm, sea, earthquake and every 
+ other disaster medieval Japan could imagine, is currently dead, but he 
+ loves her very much.
+
+Like many powerful esomorphs, the government came for her when her power 
+ first appeared.  They sent her to live apart from society, surrounded by 
+ U.S. Marines where she was safe and the world was safe from her.  That’s when 
+ her training began.
+
+It wasn’t the life she would have chosen, but it was a life she could live 
+ with. Or it was until a conspiracy of Washington power brokers
+ forced her to run or kill.
+ Already stained with blood spilled in her name, she ran.
+ But was there any refuge
+ from the government now doing the conspiracy’s bidding?
+
+If she can’t discover what the conspirators want and stop them before her 
+ father returns from the dead, the streets will flow red with innocent blood.
+    
+<hr style="width:50%;text-align:center; margin: 0 auto;padding-bottom: 2em" />
+
+p. Stolen Song is an upcoming urban fantasy thriller which plays out in
+ the heart of D.C. in a version of our world where people with magical powers
+ emerged in the 1960's.  The immortal gods, believed lost to the mists of
+ antiquities, soon followed.  Neither government nor science considered this
+ a development beyond their reach.  
+
+The government recruited and trained candidates with useful powers.  Laws
+ were passed and updated to keep up with the new reality.  Scientists studied
+ and theorized, creating several new branches of science to try and come to
+ terms with the blatant violations of the previously understood laws of
+ physics.  It was an exciting time to be a scientist.
+
+They eventually settled on the esoteric field theory and those with the
+ ability influence those fields came to be known as esomorphs.  
+
+To Skye it was ancient history that happened years before she was born and so much egghead hogwash.  She simply hears
+ the wind sing, and wind responds to her song.
+
+

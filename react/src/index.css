@@ -11,6 +11,7 @@ body {
 
 p {
 	text-indent: 1em;
+	padding-right: 1em;
 }
 
 .dialog-content {
