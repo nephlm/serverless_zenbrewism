@@ -15,10 +15,16 @@ cd flask
 pip install -r requirements.txt
 pip install -e <path to NoDB>
 pip install -e .
-cd ../react
+python zenbrewism/start.py
+```
+
+Open a new terminal and cd to the root of the repo.
+
+```bash
+cd react
 # Since this gets served from an s3 bucket it doesn't know where it's backend lives, 
 # so it needs a config file to point to the proper url.
-<setup the backend pointer>
+<setup the backend pointer: edit react/src/backendConfig.js>
 npm run start
 ```
 

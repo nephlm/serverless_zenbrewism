@@ -1,9 +1,0 @@
-zenbrewism/__init__.py
-zenbrewism/application.py
-zenbrewism/start.py
-zenbrewism/views.py
-zenbrewism.egg-info/PKG-INFO
-zenbrewism.egg-info/SOURCES.txt
-zenbrewism.egg-info/dependency_links.txt
-zenbrewism.egg-info/requires.txt
-zenbrewism.egg-info/top_level.txt
