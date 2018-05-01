@@ -3,11 +3,20 @@ import React from 'react';
 import axios from 'axios';
 //import ReactMarkdown from 'react-markdown'
 import './index.css';
-
 import { Textile } from './textile-render.js';
+import { backendConfig } from './backendConfig.js';
+var _ = require('lodash');
 
-var api_url = "https://api.zenbrewism.com/page/home"
-//var api_url = "http://localhost:5000/page/home"
+var hostname = window.location.hostname;
+
+
+try {
+  var api_root = backendConfig[hostname]['api_root']
+} catch(err) {
+  var api_root = backendConfig['www.zenbrewism.com']['api_root']
+}
+var api_url = api_root + 'page/home'
+console.log(api_url)
 
 export class Content extends React.Component {
   render() {
@@ -31,7 +40,7 @@ export class Blurb extends React.Component {
     this.state = {
       error: null,
       isLoaded: false,
-      content: "foo",
+      content: "",
 
     };
   }

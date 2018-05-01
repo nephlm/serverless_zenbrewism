@@ -8,5 +8,15 @@
         "project_name": "zenbrewism",
         "runtime": "python3.6",
         "s3_bucket": "zappa-8bbkvux0y"
+    },
+    "prod": {
+        "app_function": "zenbrewism.app",
+        "aws_region": "us-east-1",
+        "keep_warm": false,
+        "memory_size": 128,
+        "profile_name": "default",
+        "project_name": "zenbrewism",
+        "runtime": "python3.6",
+        "s3_bucket": "zappa-8bbkvux0y"
     }
 }

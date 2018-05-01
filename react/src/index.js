@@ -17,7 +17,6 @@ import './index.css';
 import { Content } from './body.js';
 
 var textile = require('textile-js');
-console.log(textile("h1. foo"))
 
 
 class SiteRoute extends React.Component {

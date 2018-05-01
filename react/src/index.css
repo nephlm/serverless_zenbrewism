@@ -10,8 +10,11 @@ body {
 
 
 p {
-	text-indent: 1em;
-	padding-right: 1em;
+	/*text-indent: 1em;*/
+	padding-right: 2em;
+	padding-left: 2em;
+	padding-bottom: 1em;
+	text-align: justify;
 }
 
 .dialog-content {
@@ -80,7 +83,8 @@ p {
 }
 
 .aboutme-text { 
-	padding: 0em 1em 0em 1em;
+	padding: 0em 2em 1em 2em;
+	text-align: left;
  }
 
 .photo {
